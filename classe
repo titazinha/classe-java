@@ -1,0 +1,13 @@
+package Lampada;
+
+ 
+public class Lampada {
+    private boolean acesa;
+    private int potencia;
+    public Lampada (boolean acesa){
+        this.acesa = acesa;
+}
+public Lampada(boolean acesa, int potencia){
+this.acesa= acesa;
+this.potencia= potencia;
+}
